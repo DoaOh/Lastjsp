@@ -111,7 +111,7 @@ import org.slf4j.LoggerFactory;
 			logger.debug("uservo : {}" ,uservo);
 			logger.debug("encryptPassword : {}" ,encryptPassword);
 		
-			if(uservo!=null && encryptPassword.equals(uservo.getPass())){
+			if(uservo!=null && password.equals(uservo.getPass())){
 				
 				//remember파라미터가 존재할 경우 userID, remember cookie 설정해준다
 				//remember파라미터가 존재하지 않을 결우 userID, remember cookie 삭제해준다
